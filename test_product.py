@@ -38,8 +38,17 @@ for f in frames:
   assert len(f['safety']['go_zone']['polygon_pct']) >= 3
   assert f['safety']['no_go_zone']['status'] == 'EXPLICIT_NO_GO_ZONE'
   assert len(f['safety']['no_go_zone']['polygon_pct']) >= 3
-for fp in ('index.html','style.css','app.js','analyze.py','ARCHITECTURE.md','README.md'):
- assert (ROOT/fp).is_file()
+ # Verify dynamic annotations across operative frames (screencast regression check)
+ consecutive_identical_gz = 0
+ for idx in range(1, len(frames)):
+  f_prev, f_curr = frames[idx-1], frames[idx]
+  if f_prev['safety']['go_zone'] and f_curr['safety']['go_zone']:
+   if f_prev['safety']['go_zone']['polygon_pct'] == f_curr['safety']['go_zone']['polygon_pct']:
+    consecutive_identical_gz += 1
+ assert consecutive_identical_gz == 0, f"Found {consecutive_identical_gz} identical consecutive GO zones (frozen annotations)"
+
+ for fp in ('index.html','style.css','app.js','analyze.py','ARCHITECTURE.md','README.md'):
+  assert (ROOT/fp).is_file()
 assert 'Mock detector' not in (ROOT/'index.html').read_text()
 css = (ROOT/'style.css').read_text()
 assert '.go-zone' in css and '.no-go-zone' in css
