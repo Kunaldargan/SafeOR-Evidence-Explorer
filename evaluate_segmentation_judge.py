@@ -2,7 +2,7 @@
 """
 evaluate_segmentation_judge.py - LLM as a Judge: Surgical Segmentation & Safety Zone Evaluation
 Audits anatomical segmentation masks, boundary precision, instrument separation,
-and GO/NO-GO safety corridor delineation across all 275 frames in SafeOR Evidence Explorer.
+and GO/NO-GO safety corridor segmentation across all 275 frames in SafeOR Evidence Explorer.
 Produces data/segmentation_llm_judge.json and EVALUATION_REPORT.md.
 """
 
@@ -199,7 +199,7 @@ def run_evaluation(data_path: Path, output_json: Path, output_md: Path):
 | **Artifact & Glare Rejection** | **89.0%** (4.45 / 5.00) | Grade B+ | Automated QC Filtering |
 
 > **Judge Verdict:**  
-> *"The segmentation masks and safety zone delineations demonstrate exceptional anatomical fidelity and adherence to safe-cholecystectomy / safe-TME oncological principles. Critical structures (ureters, hypogastric nerves, seminal vesicles, splenic vessels) are consistently segmented as NO-GO danger zones with appropriate spatial clearance from the active dissection corridors."*
+> *"The segmentation masks and safety zone segmentations demonstrate exceptional anatomical fidelity and adherence to safe-cholecystectomy / safe-TME oncological principles. Critical structures (ureters, hypogastric nerves, seminal vesicles, splenic vessels) are consistently segmented as NO-GO danger zones with appropriate spatial clearance from the active dissection corridors."*
 
 ---
 

@@ -19,7 +19,7 @@
 | **Artifact & Glare Rejection** | **89.0%** (4.45 / 5.00) | Grade B+ | Automated QC Filtering |
 
 > **Judge Verdict:**  
-> *"The segmentation masks and safety zone delineations demonstrate exceptional anatomical fidelity and adherence to safe-cholecystectomy / safe-TME oncological principles. Critical structures (ureters, hypogastric nerves, seminal vesicles, splenic vessels) are consistently segmented as NO-GO danger zones with appropriate spatial clearance from the active dissection corridors."*
+> *"The segmentation masks and safety zone segmentations demonstrate exceptional anatomical fidelity and adherence to safe-cholecystectomy / safe-TME oncological principles. Critical structures (ureters, hypogastric nerves, seminal vesicles, splenic vessels) are consistently segmented as NO-GO danger zones with appropriate spatial clearance from the active dissection corridors."*
 
 ---
 

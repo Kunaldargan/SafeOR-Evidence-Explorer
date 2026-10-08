@@ -794,7 +794,7 @@ def generate_dynamic_annotation(idx: int, sec: int, t_ms: int, img: np.ndarray, 
             'go_zone': gz,
             'no_go_zone': ngz,
             'hidden_anatomy_localized': False,
-            'surgical_clearance': 'EXPLICIT_ZONES_DELINEATED',
+            'surgical_clearance': 'EXPLICIT_ZONES_SEGMENTED',
             'clinical_review_required': True,
             'protocol_note': f"Safe corridor: {gz['label']} | Danger structure: {ngz['critical_structure']}"
         }
@@ -939,7 +939,7 @@ def analyze(src: Path, out: Path, interval: float = 3.0, max_frames: int = 500, 
                     'go_zone': gz,
                     'no_go_zone': ngz,
                     'hidden_anatomy_localized': False,
-                    'surgical_clearance': 'EXPLICIT_ZONES_DELINEATED',
+                    'surgical_clearance': 'EXPLICIT_ZONES_SEGMENTED',
                     'clinical_review_required': True,
                     'protocol_note': f"Safe dissection: {gz['label']} | Danger structure: {ngz['critical_structure']}"
                 }

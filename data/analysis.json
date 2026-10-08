@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "case_id": "safeor_extended_case_20261008",
-  "created_at_utc": "2026-10-08T12:43:21.735139+00:00",
+  "created_at_utc": "2026-10-08T13:08:46.078519+00:00",
   "source": {
     "type": "continuous_sampled_stills",
     "continuous_video_processed": true,
@@ -2335,7 +2335,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -2511,7 +2511,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -2662,7 +2662,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -2812,7 +2812,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -2962,7 +2962,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -3112,7 +3112,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -3314,7 +3314,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -3464,7 +3464,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -3615,7 +3615,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -3766,7 +3766,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -3916,7 +3916,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -4079,7 +4079,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -4267,7 +4267,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -4442,7 +4442,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -4630,7 +4630,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -4805,7 +4805,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -4980,7 +4980,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -5168,7 +5168,7 @@
           "safety_protocol": "Maintain clear visualization before instrument advancement"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Sigmoid Mesocolic Traction Plane | Danger structure: Left iliac vessels and ureteral crossing"
       },
@@ -5444,7 +5444,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -5632,7 +5632,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -5859,7 +5859,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -6073,7 +6073,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -6261,7 +6261,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -6449,7 +6449,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -6624,7 +6624,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -6799,7 +6799,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -6974,7 +6974,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -7149,7 +7149,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -7337,7 +7337,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -7512,7 +7512,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -7687,7 +7687,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -7850,7 +7850,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -8025,7 +8025,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -8200,7 +8200,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -8375,7 +8375,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -8550,7 +8550,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -8726,7 +8726,7 @@
           "safety_protocol": "Identify promontory landmark clearly prior to peritoneal incision"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Promontory Retroperitoneal Entry Window | Danger structure: Common iliac bifurcation & ureter"
       },
@@ -8901,7 +8901,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -9064,7 +9064,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -9214,7 +9214,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -9389,7 +9389,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -9539,7 +9539,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -9703,7 +9703,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -9879,7 +9879,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -10043,7 +10043,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -10219,7 +10219,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -10395,7 +10395,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -10571,7 +10571,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -10746,7 +10746,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -10921,7 +10921,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -11084,7 +11084,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -11260,7 +11260,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -11436,7 +11436,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -11599,7 +11599,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -11775,7 +11775,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -11951,7 +11951,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -12139,7 +12139,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -12327,7 +12327,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -12515,7 +12515,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -12703,7 +12703,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -12891,7 +12891,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -13079,7 +13079,7 @@
           "safety_protocol": "Verify ureteral peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Avascular Mesocolic Plane of Toldt | Danger structure: Left ureter in retroperitoneal bed"
       },
@@ -13254,7 +13254,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -13442,7 +13442,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -13630,7 +13630,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -13806,7 +13806,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -13994,7 +13994,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -14182,7 +14182,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -14370,7 +14370,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -14558,7 +14558,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -14733,7 +14733,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -14921,7 +14921,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -15084,7 +15084,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -15272,7 +15272,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -15447,7 +15447,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -15635,7 +15635,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -15823,7 +15823,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -15986,7 +15986,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -16161,7 +16161,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -16337,7 +16337,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -16513,7 +16513,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -16701,7 +16701,7 @@
           "safety_protocol": "Keep plane anterior to glistening Gerota fascia; do not enter perirenal fat"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Cephalad Retroperitoneal Cleavage Pocket | Danger structure: Renal fascia envelope and gonadal pedicle"
       },
@@ -16977,7 +16977,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -17165,7 +17165,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -17340,7 +17340,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -17515,7 +17515,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -17690,7 +17690,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -17878,7 +17878,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -18054,7 +18054,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -18230,7 +18230,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -18405,7 +18405,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -18568,7 +18568,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -18743,7 +18743,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -18918,7 +18918,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -19094,7 +19094,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -19258,7 +19258,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate cautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Avascular Intrasheath Corridor | Danger structure: Superior hypogastric nerve plexus & aortic bifurcation"
       },
@@ -19433,7 +19433,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -19608,7 +19608,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -19783,7 +19783,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -19959,7 +19959,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -20147,7 +20147,7 @@
           "safety_protocol": "Maintain >5mm clearance from aortic origin; avoid indiscriminate electrocautery"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA Subadventitial Cleavage Tunnel | Danger structure: Superior hypogastric nerve plexus at IMA origin"
       },
@@ -20323,7 +20323,7 @@
           "safety_protocol": "Confirm ureter peristalsis deep to Gerota fascia prior to energy application"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Avascular Mesocolic Plane | Danger structure: Left ureter & testicular/ovarian vessels"
       },
@@ -20486,7 +20486,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -20662,7 +20662,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -20838,7 +20838,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -21014,7 +21014,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -21202,7 +21202,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -21390,7 +21390,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -21578,7 +21578,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -21766,7 +21766,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -21954,7 +21954,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -22130,7 +22130,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -22318,7 +22318,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -22506,7 +22506,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -22694,7 +22694,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -22869,7 +22869,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -23044,7 +23044,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -23219,7 +23219,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -23394,7 +23394,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -23569,7 +23569,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -23744,7 +23744,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -23919,7 +23919,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -24094,7 +24094,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -24269,7 +24269,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -24444,7 +24444,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -24619,7 +24619,7 @@
           "safety_protocol": "Zero energy application during clip positioning; verify clip lock"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: IMA High Ligation Clearance Window | Danger structure: Abdominal aorta and sympathetic trunks"
       },
@@ -24802,7 +24802,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -24965,7 +24965,7 @@
           "safety_protocol": "Keep dissection strictly superficial to renal fascia"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Embryological Cleavage Corridor | Danger structure: Left ureter in retroperitoneum"
       },
@@ -25148,7 +25148,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -25319,7 +25319,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -25521,7 +25521,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Pancreaticocolic Release Line | Danger structure: Pancreatic tail & splenic artery/vein"
       },
@@ -25692,7 +25692,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -25894,7 +25894,7 @@
           "safety_protocol": "Strictly preserve marginal artery of Drummond"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Gastrocolic Mobilization Corridor | Danger structure: Middle colic artery stem and branches"
       },
@@ -26077,7 +26077,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -26260,7 +26260,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -26443,7 +26443,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -26626,7 +26626,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -26809,7 +26809,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -26980,7 +26980,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -27151,7 +27151,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -27314,7 +27314,7 @@
           "safety_protocol": "Avoid traction on omentum attached directly to spleen"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Splenocolic Peritoneal Safe Line | Danger structure: Spleen capsule"
       },
@@ -27497,7 +27497,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -27680,7 +27680,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -27863,7 +27863,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -28034,7 +28034,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -28205,7 +28205,7 @@
           "safety_protocol": "Avoid thermal energy touching pancreatic capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Gastrocolic & Splenocolic Mobilization Corridor | Danger structure: Pancreatic tail & splenic vessels"
       },
@@ -28368,7 +28368,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -28518,7 +28518,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -28668,7 +28668,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -28831,7 +28831,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -29007,7 +29007,7 @@
           "safety_protocol": "Stay strictly within the mesorectal plane; do not violate presacral parietal fascia"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Holy Plane of Heald (TME) | Danger structure: Presacral veins & Waldeyer fascia"
       },
@@ -29195,7 +29195,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -29383,7 +29383,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -29571,7 +29571,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -29759,7 +29759,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -29922,7 +29922,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -30098,7 +30098,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -30287,7 +30287,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -30475,7 +30475,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -30651,7 +30651,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -30839,7 +30839,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -31045,7 +31045,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Medial Mesorectal Corridor | Danger structure: Left hypogastric nerve main stem & pelvic plexus"
       },
@@ -31221,7 +31221,7 @@
           "safety_protocol": "Maintain interfascial plane; do not extend dissection lateral to pelvic plexus"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Pararectal Avascular Plane | Danger structure: Nervi erigentes at pelvic sidewall"
       },
@@ -31409,7 +31409,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -31597,7 +31597,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -31760,7 +31760,7 @@
           "safety_protocol": "Visually verify nerve course along pelvic sidewall; zero monopolar energy near trunk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Holy Plane of Heald (TME) | Danger structure: Left hypogastric nerve main stem at pelvic brim"
       },
@@ -31936,7 +31936,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -32111,7 +32111,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -32275,7 +32275,7 @@
           "safety_protocol": "Controlled bipolar coag or clip ligation; do not tear lateral stalk"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Lateral Rectal Traction Plane | Danger structure: Middle rectal artery & autonomous plexus"
       },
@@ -32450,7 +32450,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -32626,7 +32626,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -32789,7 +32789,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -32983,7 +32983,7 @@
           "safety_protocol": "Maintain anterior traction on rectum; follow areolar holy plane"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Retromesorectal Areolar Space | Danger structure: Presacral fascia covering sacral promontory"
       },
@@ -33159,7 +33159,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -33347,7 +33347,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -33535,7 +33535,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -33711,7 +33711,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -33874,7 +33874,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -34062,7 +34062,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -34250,7 +34250,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -34438,7 +34438,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -34626,7 +34626,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -34801,7 +34801,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -34989,7 +34989,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -35177,7 +35177,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -35352,7 +35352,7 @@
           "safety_protocol": "Stay anterior to parietal presacral fascia; never avulse presacral veins"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Presacral TME Descent Corridor | Danger structure: Presacral venous plexus and S3-S4 roots"
       },
@@ -35540,7 +35540,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -35728,7 +35728,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -35916,7 +35916,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -36104,7 +36104,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -36292,7 +36292,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -36480,7 +36480,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -36656,7 +36656,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -36832,7 +36832,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -36995,7 +36995,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -37159,7 +37159,7 @@
           "safety_protocol": "Avoid deep lateral plunging of energy instruments"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Pelvic Peritoneal Safe Line | Danger structure: Internal iliac vein tributaries & obturator bundle"
       },
@@ -37347,7 +37347,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -37535,7 +37535,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -37723,7 +37723,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -37911,7 +37911,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -38100,7 +38100,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -38288,7 +38288,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -38464,7 +38464,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -38653,7 +38653,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -38841,7 +38841,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -39047,7 +39047,7 @@
           "safety_protocol": "High-anterior interfascial plane dissection; cold scissors or low-power bipolar only"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Extrafascial Cleavage Plane | Danger structure: Walsh's neurovascular bundles (posterolateral to prostate)"
       },
@@ -39235,7 +39235,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -39398,7 +39398,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -39586,7 +39586,7 @@
           "safety_protocol": "Decompress bladder completely; keep incision strictly on rectal reflection"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Cul-de-Sac Incision Corridor | Danger structure: Urinary bladder wall and ureteric orifices"
       },
@@ -39774,7 +39774,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -39962,7 +39962,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -40138,7 +40138,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -40326,7 +40326,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -40514,7 +40514,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -40720,7 +40720,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Anterior Denonvilliers Plane | Danger structure: Seminal vesicle parenchyma & cavernous nerves"
       },
@@ -40908,7 +40908,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -41096,7 +41096,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -41284,7 +41284,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -41472,7 +41472,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -41660,7 +41660,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -41835,7 +41835,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -42024,7 +42024,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -42200,7 +42200,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -42376,7 +42376,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -42564,7 +42564,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -42753,7 +42753,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -42947,7 +42947,7 @@
           "safety_protocol": "Identify plane between rectal muscularis and levator ani before energy cut"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Distal Perirectal Safe Window | Danger structure: Pelvic diaphragm musculature"
       },
@@ -43136,7 +43136,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -43312,7 +43312,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -43520,7 +43520,7 @@
           "safety_protocol": "Ensure Foley catheter decompression; verify plane anterior to Denonvilliers"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Rectal Bare Muscularis Window | Danger structure: Urinary bladder posterior wall & trigone nerves"
       },
@@ -43708,7 +43708,7 @@
           "safety_protocol": "Keep dissection strictly on rectal wall; do not penetrate seminal vesicle capsule"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Anterior Denonvilliers Interfascial Plane | Danger structure: Seminal vesicle parenchyma & cavernous erectile nerves"
       },
@@ -43884,7 +43884,7 @@
           "safety_protocol": "Confirm adequate oncological margin above dentate line without sphincter sacrifice"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Supralevator Surgical Margin | Danger structure: Striated anal sphincter complex & pudendal nerves"
       },
@@ -44059,7 +44059,7 @@
           "safety_protocol": "Confirm adequate oncological margin above dentate line without sphincter sacrifice"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Supralevator Distal Transection Margin | Danger structure: Pelvic diaphragm and striated sphincter complex"
       },
@@ -44234,7 +44234,7 @@
           "safety_protocol": "Confirm adequate oncological margin above dentate line without sphincter sacrifice"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Supralevator Distal Transection Margin | Danger structure: Pelvic diaphragm and striated sphincter complex"
       },
@@ -44437,7 +44437,7 @@
           "safety_protocol": "Confirm adequate oncological margin above dentate line without sphincter sacrifice"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Supralevator Distal Transection Margin | Danger structure: Pelvic diaphragm and striated sphincter complex"
       },
@@ -44601,7 +44601,7 @@
           "safety_protocol": "Confirm adequate oncological margin above dentate line without sphincter sacrifice"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Supralevator Distal Transection Margin | Danger structure: Pelvic diaphragm and striated sphincter complex"
       },
@@ -44765,7 +44765,7 @@
           "safety_protocol": "Confirm adequate oncological margin above dentate line without sphincter sacrifice"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Supralevator Distal Transection Margin | Danger structure: Pelvic diaphragm and striated sphincter complex"
       },
@@ -44916,7 +44916,7 @@
           "safety_protocol": "Confirm adequate oncological margin above dentate line without sphincter sacrifice"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Supralevator Distal Transection Margin | Danger structure: Pelvic diaphragm and striated sphincter complex"
       },
@@ -45093,7 +45093,7 @@
           "safety_protocol": "Confirm adequate oncological margin above dentate line without sphincter sacrifice"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Supralevator Distal Transection Margin | Danger structure: Pelvic diaphragm and striated sphincter complex"
       },
@@ -45269,7 +45269,7 @@
           "safety_protocol": "Confirm adequate oncological margin above dentate line without sphincter sacrifice"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Supralevator Distal Transection Margin | Danger structure: Pelvic diaphragm and striated sphincter complex"
       },
@@ -45833,7 +45833,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Colonic Conduit Safe Plane | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -45984,7 +45984,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -46135,7 +46135,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -46311,7 +46311,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -46475,7 +46475,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -46639,7 +46639,7 @@
           "safety_protocol": "Avoid blind coagulation in deep pelvic groove; gentle irrigation"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe dissection: Pelvic Hemostasis & Drainage Plane | Danger structure: Sympathetic and parasympathetic pelvic trunks"
       },
@@ -46816,7 +46816,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -46992,7 +46992,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -47143,7 +47143,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -47307,7 +47307,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -47484,7 +47484,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -47661,7 +47661,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -47825,7 +47825,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -48002,7 +48002,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
@@ -48192,7 +48192,7 @@
           "safety_protocol": "Check pulsatility and color of colon before anastomosis"
         },
         "hidden_anatomy_localized": false,
-        "surgical_clearance": "EXPLICIT_ZONES_DELINEATED",
+        "surgical_clearance": "EXPLICIT_ZONES_SEGMENTED",
         "clinical_review_required": true,
         "protocol_note": "Safe corridor: Colonic Conduit Tension-Free Descent | Danger structure: Marginal artery of Drummond arcade"
       },
