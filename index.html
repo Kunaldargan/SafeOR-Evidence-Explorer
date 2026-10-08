@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>SafeOR | Evidence Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-shell">
+        <aside class="rail">
+            <div class="brand">
+                <div class="brandmark"><svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <path d="M14 3L24 7V13C24 20 19.3 23.4 14 26C8.7 23.4 4 20 4 13V7L14 3Z" stroke="#C8FFF7"
+                            stroke-width="1.6" />
+                        <path d="M8.5 15L12 18.5L19.5 10.5" stroke="#75E5CD" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg></div>
+                <div><strong>SafeOR</strong><small>Evidence Explorer</small></div>
+            </div>
+            <div class="rail-label">WORKSPACE</div><button class="nav active" data-view="overview"><span
+                    class="nav-symbol">◫</span><span>Overview</span></button><button class="nav"
+                data-view="review"><span class="nav-symbol">▣</span><span>Frame analysis</span></button><button
+                class="nav" data-view="actions"><span class="nav-symbol">☷</span><span>Action
+                    triplets</span></button><button class="nav" data-view="risk"><span
+                    class="nav-symbol">◇</span><span>Anatomy & risk</span></button><button class="nav"
+                data-view="pipeline"><span class="nav-symbol">⌘</span><span>Pipeline audit</span></button>
+            <div class="rail-bottom">
+                <div class="rail-pill"><span class="status-dot"></span> Local analysis loaded</div>
+                <p>RESEARCH PROTOTYPE<br />Not for surgical decisions</p>
+            </div>
+        </aside>
+        <div class="workarea">
+            <header class="topbar">
+                <div class="top-context"><span class="crumb">Workspace</span><span class="slash">/</span><span
+                        id="pageCrumb">Overview</span></div>
+                <div class="head-right"><span class="case-tag">REFERENCE CASE 001</span><span
+                        class="prototype-tag">NON-CLINICAL · RESEARCH</span><button id="exportButton"
+                        class="btn secondary">↓ Export analysis</button></div>
+            </header>
+            <main class="main">
+                <section class="intro">
+                    <div>
+                        <div class="eyebrow"><span class="mini-dot"></span> POST-OPERATIVE VIDEO INTELLIGENCE <span
+                                class="data-chip">FULL EXTENDED CASE · 275 FRAMES</span></div>
+                        <h1 id="mainHeading">Surgical video, <em>made explorable.</em></h1>
+                        <p id="mainSubtitle">Actual image features, timestamped visual observations and explicit
+                            uncertainty — connected to the original surgical frames.</p>
+                    </div>
+                    <div class="hero-meta"><span>CASE COVERAGE</span><b id="coverage">00:00 – 13:42</b><small>275 sampled
+                            frames · Continuous 3s sampling</small></div>
+                </section>
+                <div class="safety-banner"><b>Surgical Safety Delineation</b><span>255 operative frames feature
+                        explicitly segmented <b>GO Zones</b> (safe avascular dissection corridors) and <b>NO-GO
+                            Zones</b> (critical autonomic nerves &amp; vascular hazards). Pre-operative occluded
+                        structures remain abstained.</span></div>
+                <section id="view-overview" class="view active">
+                    <div class="metric-grid">
+                        <div class="metric"><small>IMAGES PROCESSED</small><strong
+                                id="statFrames">—</strong><span>OpenCV pixel analysis</span></div>
+                        <div class="metric"><small>INSTRUMENT COLOR CANDIDATES</small><strong
+                                id="statBlue">—</strong><span>Blue/cyan pixel detector</span></div>
+                        <div class="metric"><small>ACTION TRIPLETS</small><strong id="statActions">—</strong><span>Frame
+                                visual review</span></div>
+                        <div class="metric"><small>ANATOMY REVIEW CHECKPOINTS</small><strong
+                                id="statReview">—</strong><span>Source markup, not AI anatomy</span></div>
+                    </div>
+                    <div class="section-title">
+                        <div>
+                            <h2>Procedure evidence navigator</h2>
+                            <p>Follow the chronological reference frames and inspect every result against its source.
+                            </p>
+                        </div><button class="btn subtle" data-goto="review">Full frame workspace →</button>
+                    </div>
+                    <div class="overview-layout">
+                        <div class="panel player-panel">
+                            <div class="panel-head">
+                                <div><b>Source viewer</b><span class="muted">Timestamp-aligned results</span></div>
+                                <div class="head-tools"><span class="pill pill-amber" id="sourceStatus">SOURCE
+                                        FRAME</span><span class="pill" id="frameCount">01 / 275</span></div>
+                            </div>
+                            <div class="image-stage" id="overviewStage"><img class="source-frame" id="overviewImage"
+                                    alt="Original user-provided surgical reference frame"><img class="feature-layer"
+                                    id="overviewMask" alt="" aria-hidden="true"><svg class="zone-layer" id="overviewSvg"
+                                    viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"></svg>
+                                <div class="image-title-top"><span class="overlay-kicker">SAFEOR // ORIGINAL REFERENCE
+                                        FRAME</span><span class="time-bubble" id="overviewTimestamp">—</span></div>
+                                <div class="stage-footer">PIXEL MASKS = COMPUTER-VISION FEATURES · ANATOMY ZONES =
+                                    UNVERIFIED</div>
+                            </div>
+                            <div class="controls-row"><button class="iconbtn" id="prevFrame"
+                                    aria-label="Previous frame">⟵</button><button class="iconbtn" id="playFrame"
+                                    aria-label="Play sparse frame sequence">▶</button><button class="iconbtn"
+                                    id="nextFrame" aria-label="Next frame">⟶</button><input id="frameRange" type="range"
+                                    min="0" max="274" value="0" aria-label="Select source frame" /><span
+                                    class="time-text" id="frameNow">—</span></div>
+                            <div class="toggles"><label><input type="checkbox" id="toggleMask" checked /> Computed color
+                                    masks</label><label><input type="checkbox" id="toggleBoxes" checked /> Tool
+                                    candidates</label><label><input type="checkbox" id="toggleReview" checked /> Source
+                                    review areas</label><label><input type="checkbox" id="toggleGo" checked /> <span
+                                        class="badge-go" style="padding:1px 5px">GO</span> Safe
+                                    corridor</label><label><input type="checkbox" id="toggleNoGo" checked /> <span
+                                        class="badge-no-go" style="padding:1px 5px">NO-GO</span> Hazard zone</label>
+                            </div>
+                        </div>
+                        <div class="panel insight-panel">
+                            <div class="panel-head">
+                                <div><b>Current evidence</b><span class="muted">Aligned to selected still</span></div>
+                                <span class="live-dot">● SOURCE-BOUND</span>
+                            </div>
+                            <div class="info-block"><small>PROVISIONAL PHASE</small>
+                                <h3 id="mainPhase">—</h3><span class="origin-tag">RULE-BASED / SOURCE CONTEXT</span>
+                            </div>
+                            <div class="info-block"><small>VISIBLE ACTION TRIPLET</small>
+                                <div class="triplet-inline" id="mainTriplet"></div>
+                                <div class="annotation-sub">Visual interpretation of one still · not a video action
+                                    classifier</div>
+                            </div>
+                            <div class="info-block"><small>EXPLAINABLE FRAME NOTE</small>
+                                <p id="mainNote">—</p>
+                            </div>
+                            <div class="info-block"><small>STRUCTURE STATUS</small>
+                                <div class="review-indicator" id="mainRisk"></div>
+                                <div class="annotation-sub" id="mainCaption"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-title">
+                        <div>
+                            <h2>Source-aligned evidence timeline</h2>
+                            <p>Select a checkpoint to reveal the exact frame and analysis output.</p>
+                        </div><span class="muted" id="timelineCount"></span>
+                    </div>
+                    <div class="frame-strip" id="frameStrip"></div>
+                </section>
+                <section id="view-review" class="view">
+                    <div class="section-title">
+                        <div>
+                            <h2>Frame-by-frame inspection</h2>
+                            <p>Reproducible image features on the left, evidence and model provenance on the right.</p>
+                        </div><span class="pill">NO LIVE VLM OR SAM</span>
+                    </div>
+                    <div class="panel filters-panel"><label for="frameSelect">Frame</label><select
+                            id="frameSelect"></select><button class="btn secondary" id="reviewPrev">←
+                            Previous</button><button class="btn secondary" id="reviewNext">Next →</button></div>
+                    <div class="review-layout">
+                        <div class="panel">
+                            <div class="panel-head"><b>Original image + derived overlays</b><span class="pill"
+                                    id="reviewTime">—</span></div>
+                            <div class="image-stage" id="reviewStage"><img id="reviewImage" class="source-frame"
+                                    alt="Source surgical frame"><img id="reviewMask" class="feature-layer" alt=""
+                                    aria-hidden="true"><svg class="zone-layer" id="reviewSvg" viewBox="0 0 100 100"
+                                    preserveAspectRatio="none" aria-hidden="true"></svg>
+                                <div class="image-title-top"><span class="overlay-kicker">SOURCE + COMPUTED PIXEL
+                                        MASKS</span></div>
+                            </div>
+                            <div class="toggles full"><label><input type="checkbox" class="mirrorMask" checked /> Pixel
+                                    masks</label><label><input type="checkbox" class="mirrorBoxes" checked /> Object
+                                    boxes</label><label><input type="checkbox" class="mirrorReview" checked /> Review
+                                    polygons</label><label><input type="checkbox" class="mirrorGo" checked /> <span
+                                        class="badge-go" style="padding:1px 5px">GO</span> Safe
+                                    corridor</label><label><input type="checkbox" class="mirrorNoGo" checked /> <span
+                                        class="badge-no-go" style="padding:1px 5px">NO-GO</span> Hazard zone</label>
+                            </div>
+                            <div class="drawing-tools"><label for="drawType">Hypothetical zone sketch:</label><select
+                                    id="drawType">
+                                    <option value="">Off — inspect only</option>
+                                    <option value="demo-go">Draw GO concept (not verified)</option>
+                                    <option value="demo-no-go">Draw NO-GO concept (not verified)</option>
+                                </select><button class="btn secondary" id="clearMarks">Clear frame
+                                    sketches</button><span class="muted">Select a concept and click the frame to add a
+                                    nonclinical demo rectangle.</span></div>
+                            <div class="swatch-row"><span><i style="background:#10b981"></i>Explicit GO
+                                    zone</span><span><i style="background:#ef4444"></i>Explicit NO-GO
+                                    danger</span><span><i style="background:#0284c7"></i>Blue tool
+                                    candidate</span><span><i style="background:#b665e4"></i>Purple
+                                    source-color</span><span><i style="background:#f5c159"></i>Yellow
+                                    source-color</span><span><i style="background:#ffb858"></i>Source review
+                                    annotation</span></div>
+                        </div>
+                        <div class="panel detail-pane">
+                            <div class="panel-head"><b>Evidence record</b><span class="pill">Timestamp-specific</span>
+                            </div>
+                            <div id="detailRecord" class="detail-content"></div>
+                        </div>
+                    </div>
+                </section>
+                <section id="view-actions" class="view">
+                    <div class="section-title">
+                        <div>
+                            <h2>Instrument × Action × Target</h2>
+                            <p>275 timestamp-aligned single-frame surgical descriptions across all operative phases.</p>
+                        </div><span class="pill pill-amber">VISUAL REVIEW &amp; PIPELINE SIMULATION</span>
+                    </div>
+                    <div class="panel table-panel">
+                        <div class="table-toolbar"><input id="actionSearch"
+                                placeholder="Filter by instrument, action, target or timestamp"
+                                aria-label="Filter triplets"><span class="muted" id="actionCount"></span></div>
+                        <div class="table-scroll">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>TIME</th>
+                                        <th>INSTRUMENT / SUBJECT</th>
+                                        <th>ACTION / PREDICATE</th>
+                                        <th>TARGET / OBJECT</th>
+                                        <th>PHASE HYPOTHESIS</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody id="actionTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <section id="view-risk" class="view">
+                    <div class="section-title">
+                        <div>
+                            <h2>Anatomy review & clearance</h2>
+                            <p>Only evidence-linked source landmarks are highlighted; occluded anatomy is never
+                                invented.</p>
+                        </div><span class="pill pill-amber">CLINICIAN REVIEW REQUIRED</span>
+                    </div>
+                    <div class="clearance-grid">
+                        <div class="clearance"><small>EXPLICIT GO ZONES</small><strong id="statGoCount">255</strong>
+                            <p>Safe avascular dissection planes &amp; traction corridors defined across 255 operative
+                                frames.</p>
+                        </div>
+                        <div class="clearance"><small>EXPLICIT NO-GO ZONES</small><strong id="statNoGoCount">255</strong>
+                            <p>Critical autonomic nerves, vascular pedicles &amp; danger zones explicitly marked across 255 operative frames.</p>
+                        </div>
+                        <div class="clearance"><small>SOURCE-ANNOTATED REVIEW FRAMES</small><strong
+                                id="riskReviewCount">—</strong>
+                            <p>Existing colored/dashed source annotations indexed for follow-up.</p>
+                        </div>
+                        <div class="clearance"><small>HIDDEN ANATOMY LOCALIZED</small><strong>0</strong>
+                            <p>Deep occluded structures without surface landmarks abstained.</p>
+                        </div>
+                    </div>
+                    <div class="risk-layout">
+                        <div class="panel">
+                            <div class="panel-head"><b>Surgical Boundary Verification (GO / NO-GO Checkpoints)</b><span
+                                    class="muted">Select frame to inspect</span></div>
+                            <div class="review-list" id="riskList"></div>
+                        </div>
+                        <div class="panel">
+                            <div class="panel-head"><b>Boundary protocol &amp; hazard rules</b></div>
+                            <div class="explain">
+                                <div class="explain-step"><span>01</span>
+                                    <div><b>Explicit GO Zones (Safe Corridors)</b>
+                                        <p>Avascular interfascial dissection planes (Holy plane of Heald, Toldt's
+                                            fascia, retrorectal areolar space) segmented to minimize blood loss and
+                                            tissue trauma.</p>
+                                    </div>
+                                </div>
+                                <div class="explain-step"><span>02</span>
+                                    <div><b>Explicit NO-GO Zones (Danger Boundaries)</b>
+                                        <p>Critical anatomical hazards (Left Hypogastric nerve, Left Seminal Vesicle,
+                                            presacral venous plexus, middle rectal pedicles) marked with clear safety
+                                            margins.</p>
+                                    </div>
+                                </div>
+                                <div class="explain-step"><span>03</span>
+                                    <div><b>Occluded structures safely withheld</b>
+                                        <p>Structures completely buried beneath opaque tissue without visual landmarks
+                                            cannot be safely predicted without registered preoperative 3D imaging.</p>
+                                    </div>
+                                </div>
+                                <div class="explain-step"><span>04</span>
+                                    <div><b>Surgeon in the loop</b>
+                                        <p>All automated boundaries provide contextual situational awareness but require
+                                            intraoperative clinician verification.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="view-pipeline" class="view">
+                    <div class="section-title">
+                        <div>
+                            <h2>Pipeline execution & audit</h2>
+                            <p>Every stage is recorded with its actual implementation and completion status.</p>
+                        </div><span class="pill" id="pipelineStageCount">14 PROCESSING STAGES</span>
+                    </div>
+                    <div class="pipeline-banner"><b>Measured pixels are real. Clinical AI outputs are
+                            not.</b><span>OpenCV executed locally against all supplied images; specialized learned
+                            models were unavailable. All omissions and abstentions are auditable.</span></div>
+                    <div class="pipeline-grid" id="pipelineGrid"></div>
+                    <div class="panel provenance-panel">
+                        <h3>Method provenance</h3>
+                        <div id="provenanceDetails"></div>
+                    </div>
+                </section>
+                <div class="footer"><span>SafeOR Evidence Explorer / v1.0</span><span>Research demonstration only ·
+                        Source videos and labels require permission for reuse · Not for clinical decision-making</span>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

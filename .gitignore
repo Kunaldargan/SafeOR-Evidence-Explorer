@@ -1,0 +1,9 @@
+# Ignore duplicate raw frames folder (assets/frames/ holds the deployed frames)
+frames/
+
+# Python cache & temp
+__pycache__/
+*.pyc
+.tempmediaStorage/
+scratch/
+.DS_Store
