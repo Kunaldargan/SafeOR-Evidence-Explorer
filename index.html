@@ -142,19 +142,30 @@
                             <p>Reproducible image features on the left, evidence and model provenance on the right.</p>
                         </div><span class="pill">NO LIVE VLM OR SAM</span>
                     </div>
-                    <div class="panel filters-panel"><label for="frameSelect">Frame</label><select
-                            id="frameSelect"></select><button class="btn secondary" id="reviewPrev">←
-                            Previous</button><button class="btn secondary" id="reviewNext">Next →</button></div>
+                    <div class="panel filters-panel">
+                        <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;width:100%">
+                            <label for="frameSelect" style="font-weight:700;color:#9bf7e2">Frame</label>
+                            <select id="frameSelect" style="flex:1;min-width:220px"></select>
+                            <button class="btn secondary" id="reviewPrev">← Previous</button>
+                            <button class="btn secondary" id="reviewNext">Next →</button>
+                            <span class="pill pill-cyan" id="reviewNow" style="font-size:13px;font-weight:700;padding:6px 12px;font-family:monospace;letter-spacing:1px;background:#153434;color:#7bf5d9;border:1px solid #336e64">00:00</span>
+                        </div>
+                        <div style="display:flex;gap:12px;align-items:center;margin-top:12px;width:100%">
+                            <span style="font-size:11px;color:#8ba9ae;font-weight:600">Timeline Scrubber:</span>
+                            <input id="reviewRange" type="range" min="0" max="274" value="0" aria-label="Select source frame timestamp" style="flex:1;accent-color:#75e5cd" />
+                            <span id="reviewRangeText" style="font-family:monospace;font-size:13px;color:#d5f4f1;font-weight:700;min-width:48px">00:00</span>
+                        </div>
+                    </div>
                     <div class="review-layout">
                         <div class="panel">
                             <div class="panel-head"><b>Original image + derived overlays</b><span class="pill"
-                                    id="reviewTime">—</span></div>
+                                    id="reviewTime">TIME: 00:00</span></div>
                             <div class="image-stage" id="reviewStage"><img id="reviewImage" class="source-frame"
                                     alt="Source surgical frame"><img id="reviewMask" class="feature-layer" alt=""
                                     aria-hidden="true"><svg class="zone-layer" id="reviewSvg" viewBox="0 0 100 100"
                                     preserveAspectRatio="none" aria-hidden="true"></svg>
-                                <div class="image-title-top"><span class="overlay-kicker">SOURCE + COMPUTED PIXEL
-                                        MASKS</span></div>
+                                <div class="image-title-top"><span class="overlay-kicker" id="reviewOverlayKicker">SOURCE + COMPUTED PIXEL
+                                        MASKS</span><span class="time-bubble" id="reviewTimestamp">00:00</span></div>
                             </div>
                             <div class="toggles full"><label><input type="checkbox" class="mirrorMask" checked /> Pixel
                                     masks</label><label><input type="checkbox" class="mirrorBoxes" checked /> Object

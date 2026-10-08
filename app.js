@@ -100,7 +100,11 @@ function selected(i) {
   $('frameCount').textContent = `${String(activeIndex + 1).padStart(2, '0')} / ${report.frames.length}`;
   $('frameRange').value = activeIndex;
   $('frameSelect').value = String(activeIndex);
-  $('reviewTime').textContent = f.timestamp;
+  if ($('reviewRange')) $('reviewRange').value = activeIndex;
+  if ($('reviewRangeText')) $('reviewRangeText').textContent = f.timestamp;
+  if ($('reviewNow')) $('reviewNow').textContent = f.timestamp;
+  if ($('reviewTimestamp')) $('reviewTimestamp').textContent = f.timestamp;
+  $('reviewTime').textContent = `TIME: ${f.timestamp}`;
   $('sourceStatus').textContent = f.frame_type === 'source_educational_slide' ? 'EDITORIAL SLIDE' : 'OPERATIVE STILL';
   $('mainPhase').textContent = f.phase.label;
   $('mainTriplet').innerHTML = f.action_triplets.length ? f.action_triplets.map(a => `<span>${safe(a.subject)}</span><i>→</i><span class="verb">${safe(a.predicate)}</span><i>→</i><span>${safe(a.object)}</span>`).join('') : '<span>ABSTAIN · insufficient evidence</span>';
@@ -162,6 +166,7 @@ function fillOverview() {
   $('timelineCount').textContent = frames.length + ' inspected timestamps';
   $('coverage').textContent = frames[0].timestamp + ' – ' + frames.at(-1).timestamp;
   $('frameRange').max = frames.length - 1;
+  if ($('reviewRange')) $('reviewRange').max = frames.length - 1;
   $('frameStrip').innerHTML = frames.map((f, i) => `<button class="frame-tile" data-frame="${i}"><img loading="lazy" src="${f.image}" alt="Surgical frame at ${f.timestamp}"><strong>${f.timestamp}</strong><small>${safe(f.phase.label)}</small></button>`).join('');
   document.querySelectorAll('.frame-tile').forEach(el => el.addEventListener('click', () => selected(+el.dataset.frame)));
   $('frameSelect').innerHTML = frames.map((f, i) => `<option value="${i}">${f.timestamp} · ${safe(f.phase.label)}</option>`).join('');
@@ -223,6 +228,7 @@ function bindEvents() {
   document.querySelectorAll('[data-goto]').forEach(n => n.addEventListener('click', () => setView(n.dataset.goto)));
   for (const [el, delta] of [['prevFrame', -1], ['nextFrame', 1], ['reviewPrev', -1], ['reviewNext', 1]]) $(el).addEventListener('click', () => selected(activeIndex + delta));
   $('frameRange').addEventListener('input', e => selected(+e.target.value));
+  if ($('reviewRange')) $('reviewRange').addEventListener('input', e => selected(+e.target.value));
   $('frameSelect').addEventListener('change', e => selected(+e.target.value));
   $('actionSearch').addEventListener('input', renderTriplets);
 
@@ -277,7 +283,7 @@ function bindEvents() {
 
 (async function () {
   try {
-    let r = await fetch('data/analysis.json');
+    let r = await fetch('data/analysis.json?v=' + Date.now());
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     report = await r.json();
     if (!report.frames?.length) throw new Error('No analyzed frames');
