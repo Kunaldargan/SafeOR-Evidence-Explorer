@@ -1,5 +1,5 @@
-# Ignore duplicate raw frames folder (assets/frames/ holds the deployed frames)
-frames/
+# Ignore ONLY root frames/ folder (assets/frames/ must be committed for web app)
+/frames/
 
 # Python cache & temp
 __pycache__/
