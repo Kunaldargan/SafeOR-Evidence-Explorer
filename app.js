@@ -129,6 +129,22 @@ function selected(i) {
   }
 }
 
+function populateFrameSelect(keyOnly = false) {
+  const sel = $('frameSelect');
+  if (!sel || !report?.frames) return;
+  const filtered = report.frames
+    .map((f, i) => ({ f, i }))
+    .filter(({ f }) => !keyOnly || f.is_key_frame);
+  sel.innerHTML = filtered.map(({ f, i }) => {
+    const star = f.is_key_frame ? '★ ' : '';
+    const label = f.vlm_commentary?.milestone_title || f.phase.label;
+    return `<option value="${i}">${star}${f.timestamp} · ${safe(label)}</option>`;
+  }).join('');
+  if (filtered.some(item => item.i === activeIndex)) {
+    sel.value = String(activeIndex);
+  }
+}
+
 function detailHTML(f) {
   const s = f.segmentation.regions, det = f.object_detection.automated_candidates, sf = f.safety;
   const gz = sf?.go_zone, ngz = sf?.no_go_zone;
@@ -147,11 +163,40 @@ function detailHTML(f) {
       <p>Non-intracorporeal photograph: intracorporeal GO/NO-GO navigation abstained.</p>
     </div>`;
   }
+
+  const vlm = f.vlm_commentary;
+  let vlmSection = '';
+  if (vlm) {
+    const isKey = !!f.is_key_frame;
+    vlmSection = `<div class="detail-section" style="${isKey ? 'border-left:3px solid #f59e0b;background:rgba(245,158,11,0.06);' : ''}">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <small style="color:${isKey ? '#fbbf24' : '#6fa59b'};font-weight:700">${isKey ? '★ KEY MILESTONE · VLM CLINICAL COMMENTARY' : 'VLM FRAME COMMENTARY'}</small>
+        <span style="font-size:10px;font-family:monospace;color:#6ee7b7;background:rgba(16,185,129,0.12);padding:2px 6px;border-radius:4px;border:1px solid rgba(16,185,129,0.3)">Confidence: ${(vlm.confidence_score * 100).toFixed(0)}%</span>
+      </div>
+      <h3 style="color:${isKey ? '#fcd34d' : '#e6f8f5'};margin-bottom:8px">${safe(vlm.milestone_title || f.phase.label)}</h3>
+      <div style="margin-bottom:8px">
+        <b style="color:#9bf7e2;font-size:11px;text-transform:uppercase;letter-spacing:0.5px">Anatomical Landmarks:</b>
+        <p style="margin:2px 0 6px 0;font-size:12px;color:#cbd5e1;line-height:1.4">${safe(vlm.scene_anatomy)}</p>
+      </div>
+      <div style="margin-bottom:8px">
+        <b style="color:#93c5fd;font-size:11px;text-transform:uppercase;letter-spacing:0.5px">Dual-Instrument Dynamics:</b>
+        <p style="margin:2px 0 6px 0;font-size:12px;color:#cbd5e1;line-height:1.4">${safe(vlm.active_instruments)}</p>
+      </div>
+      ${vlm.safety_assessment?.clinical_rule ? `
+      <div style="background:rgba(15,23,42,0.6);border:1px solid rgba(255,255,255,0.08);border-radius:6px;padding:8px 10px;margin-bottom:8px">
+        <b style="color:#fcd34d;font-size:11px;text-transform:uppercase;letter-spacing:0.5px">VLM Safety Directive:</b>
+        <p style="margin:2px 0 0 0;font-size:12px;color:#fef08a;line-height:1.35">${safe(vlm.safety_assessment.clinical_rule)}</p>
+      </div>` : ''}
+      <small style="color:#64748b;font-size:10px;display:block">${safe(vlm.model)} · ${safe(vlm.image_quality)}</small>
+    </div>`;
+  }
+
   return `<div class="detail-section"><small>VISIBLE OBSERVATION</small><h3>${safe(f.phase.label)}</h3><p>${safe(f.note)}</p><p><b>Source label:</b> ${safe(f.source_caption || 'None transcribed')}</p></div>
   ${safetySection}
+  ${vlmSection}
   <div class="detail-section"><small>ACTUAL COMPUTER VISION</small><h3>Pixel-level segmentation & detection</h3><div class="detail-grid"><div class="detail-cell"><small>BLUE/CYAN MATERIAL</small><b>${fnum(s.blue.area_fraction_pct, '%')}</b></div><div class="detail-cell"><small>PURPLE SOURCE-COLOR</small><b>${fnum(s.purple.area_fraction_pct, '%')}</b></div><div class="detail-cell"><small>YELLOW SOURCE-COLOR</small><b>${fnum(s.yellow.area_fraction_pct, '%')}</b></div><div class="detail-cell"><small>AUTOMATIC TOOL ROIS</small><b>${det.length}</b></div></div><p>${safe(f.segmentation.limitations)}</p></div>
   <div class="detail-section"><small>FRAME QC</small><div class="detail-grid"><div class="detail-cell"><small>LAPLACIAN DETAIL</small><b>${f.qc.laplacian_variance}</b></div><div class="detail-cell"><small>BRIGHT PIXELS</small><b>${f.qc.bright_pixel_pct}%</b></div><div class="detail-cell"><small>DARK PIXELS</small><b>${f.qc.dark_pixel_pct}%</b></div><div class="detail-cell"><small>VISUAL FRAME DIFFERENCE</small><b>${f.image_difference_to_previous ?? '—'}</b></div></div><p>${safe(f.quality_flags.join(' · ') || 'No automatic quality flags')}</p></div>
-  <div class="detail-section"><small>CLINICAL STATUS</small><h3 style="color:#77e6d1">${(sf?.surgical_clearance === 'EXPLICIT_ZONES_DELINEATED' || sf?.surgical_clearance === 'EXPLICIT_ZONES_segmented') ? 'EXPLICIT ZONES DELINEATED' : 'REVIEW REQUIRED'}</h3><p>${safe(sf?.protocol_note || 'Clinician verification required before surgical maneuvers.')}</p><p>Action: ${safe(f.action_triplets.map(a => `${a.subject} → ${a.predicate} → ${a.object}`).join('; ') || 'ABSTAIN')}</p></div>`;
+  <div class="detail-section"><small>CLINICAL STATUS</small><h3 style="color:#77e6d1">${(sf?.surgical_clearance === 'EXPLICIT_ZONES_DELINEATED' || sf?.surgical_clearance === 'EXPLICIT_ZONES_segmented') ? 'EXPLICIT ZONES segmented' : 'REVIEW REQUIRED'}</h3><p>${safe(sf?.protocol_note || 'Clinician verification required before surgical maneuvers.')}</p><p>Action: ${safe(f.action_triplets.map(a => `${a.subject} → ${a.predicate} → ${a.object}`).join('; ') || 'ABSTAIN')}</p></div>`;
 }
 
 function fillOverview() {
@@ -169,7 +214,20 @@ function fillOverview() {
   if ($('reviewRange')) $('reviewRange').max = frames.length - 1;
   $('frameStrip').innerHTML = frames.map((f, i) => `<button class="frame-tile" data-frame="${i}"><img loading="lazy" src="${f.image}" alt="Surgical frame at ${f.timestamp}"><strong>${f.timestamp}</strong><small>${safe(f.phase.label)}</small></button>`).join('');
   document.querySelectorAll('.frame-tile').forEach(el => el.addEventListener('click', () => selected(+el.dataset.frame)));
-  $('frameSelect').innerHTML = frames.map((f, i) => `<option value="${i}">${f.timestamp} · ${safe(f.phase.label)}</option>`).join('');
+  populateFrameSelect(false);
+  if ($('keyFramesOnly')) {
+    $('keyFramesOnly').addEventListener('change', e => {
+      populateFrameSelect(e.target.checked);
+      if (e.target.checked && !report.frames[activeIndex]?.is_key_frame) {
+        const nextKey = report.frames.findIndex((f, idx) => idx >= activeIndex && f.is_key_frame);
+        if (nextKey !== -1) selected(nextKey);
+        else {
+          const firstKey = report.frames.findIndex(f => f.is_key_frame);
+          if (firstKey !== -1) selected(firstKey);
+        }
+      }
+    });
+  }
 
   // Interactive GO / NO-GO and reference checkpoint explorer
   $('riskList').innerHTML = frames.map((f, idx) => {
@@ -279,6 +337,17 @@ function bindEvents() {
     if (e.key === 'ArrowLeft') selected(activeIndex - 1);
     if (e.key === 'ArrowRight') selected(activeIndex + 1);
   });
+
+  if ($('llmJudgeBtn') && $('judgeModal')) {
+    $('llmJudgeBtn').addEventListener('click', () => $('judgeModal').showModal());
+    if ($('closeJudgeModal')) $('closeJudgeModal').addEventListener('click', () => $('judgeModal').close());
+    $('judgeModal').addEventListener('click', e => {
+      const rect = $('judgeModal').getBoundingClientRect();
+      if (e.clientX < rect.left || e.clientX > rect.right || e.clientY < rect.top || e.clientY > rect.bottom) {
+        $('judgeModal').close();
+      }
+    });
+  }
 }
 
 (async function () {

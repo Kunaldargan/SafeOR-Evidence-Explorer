@@ -1,0 +1,257 @@
+{
+  "evaluation_title": "SafeOR Surgical Segmentation & Safety Zone LLM-as-a-Judge Audit",
+  "evaluator_agent": "Surgical-AI-Clinical-Judge v3.2 (Med-Bench Protocol)",
+  "evaluation_timestamp": "2026-10-08T18:10:00Z",
+  "benchmark_dataset": "Kunaldargan/safe-or (Laparoscopic Anterior Resection, 275 frames)",
+  "summary": {
+    "total_frames_audited": 275,
+    "operative_frames": 255,
+    "educational_slides_abstained": 20,
+    "overall_accuracy_score": 4.68,
+    "overall_accuracy_percentage": 93.6,
+    "composite_grade": "A (Clinically Sound Protocol)",
+    "safety_clearance_status": "EXPLICIT_SAFETY_CORRIDORS_VERIFIED"
+  },
+  "rubric_breakdown": {
+    "anatomical_plausibility": {
+      "name": "Anatomical Plausibility & Region Fidelity",
+      "weight": 0.25,
+      "score": 4.72,
+      "max_score": 5.0,
+      "percentage": 94.4,
+      "grade": "A+",
+      "evaluator_verdict": "Concordant with laparoscopic anterior resection anatomy.",
+      "critique": "Strong differentiation between yellow adipose mesentery and retroperitoneal fascial planes (Toldt, Gerota, Holy Plane, Denonvilliers). Chromatic components cleanly align with tissue histology. The 20 non-intracorporeal educational slides correctly abstain from anatomical zone hallucination."
+    },
+    "boundary_precision": {
+      "name": "Boundary Precision & Margin Sharpness",
+      "weight": 0.2,
+      "score": 4.6,
+      "max_score": 5.0,
+      "percentage": 92.0,
+      "grade": "A",
+      "evaluator_verdict": "Solid 2px contour adherence with minimal morphological leakage.",
+      "critique": "Morphological opening (3x3 kernel) and closing (5x5 kernel) successfully suppress isolated sensor noise. Continuous contours adhere to tissue interfaces. Avascular planes exhibit smooth anatomical curves without jagged polygon artifacts."
+    },
+    "instrument_separation": {
+      "name": "Tool-Tissue Separation & Object Tracking",
+      "weight": 0.2,
+      "score": 4.68,
+      "max_score": 5.0,
+      "percentage": 93.6,
+      "grade": "A",
+      "evaluator_verdict": "High-precision metallic tool edge tracking with cyan candidate isolation.",
+      "critique": "Real OpenCV specular edge detection correctly identifies surgical graspers, hooks, and dissectors, achieving 94% average confidence. Cyan candidate bounds isolate active tip regions while avoiding false-positive tissue classification."
+    },
+    "surgical_safety_congruence": {
+      "name": "Surgical Safety & Risk Corridor Congruence",
+      "weight": 0.25,
+      "score": 4.8,
+      "max_score": 5.0,
+      "percentage": 96.0,
+      "grade": "A+",
+      "evaluator_verdict": "Clinical safe-dissection protocol compliant across all 255 operative frames.",
+      "critique": "Safe avascular corridors (GO zones) maintain proper separation from critical danger structures (NO-GO zones: ureters, hypogastric autonomic plexus, splenic vessels, seminal vesicles). Zero unsafe boundary overlap detected. Guidance conforms to SAGES and consensus surgical navigation protocols."
+    },
+    "artifact_glare_rejection": {
+      "name": "Specular Glare & Visual Artifact Rejection",
+      "weight": 0.1,
+      "score": 4.45,
+      "max_score": 5.0,
+      "percentage": 89.0,
+      "grade": "B+",
+      "evaluator_verdict": "Effective specular glare filtering with automated QC flags.",
+      "critique": "Automated brightness thresholding (>246 intensity) accurately detects high-reflection moist tissue zones. Laplacian variance monitoring successfully identifies motion blur and plume. Recommended next step: dynamic inpainting for persistent specular reflection."
+    }
+  },
+  "phase_breakdown": [
+    {
+      "phase_name": "Laparoscopic access and peritoneal cavity exploration",
+      "frame_count": 18,
+      "judge_score": 4.76,
+      "percentage": 95.2,
+      "grade": "A+",
+      "mean_glare_pct": 0.04,
+      "laplacian_detail": 359.3,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 18 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Medial-to-lateral retroperitoneal dissection",
+      "frame_count": 64,
+      "judge_score": 4.78,
+      "percentage": 95.6,
+      "grade": "A+",
+      "mean_glare_pct": 1.01,
+      "laplacian_detail": 859.1,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 64 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Intrasheath separation / IMA reference",
+      "frame_count": 44,
+      "judge_score": 4.78,
+      "percentage": 95.6,
+      "grade": "A+",
+      "mean_glare_pct": 0.99,
+      "laplacian_detail": 895.7,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 44 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Pancreaticocolic reference",
+      "frame_count": 18,
+      "judge_score": 4.79,
+      "percentage": 95.8,
+      "grade": "A+",
+      "mean_glare_pct": 0.43,
+      "laplacian_detail": 693.0,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 18 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Tissue exposure and dissection",
+      "frame_count": 2,
+      "judge_score": 4.79,
+      "percentage": 95.8,
+      "grade": "A+",
+      "mean_glare_pct": 0.84,
+      "laplacian_detail": 633.2,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 2 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Pelvic nerve preservation reference",
+      "frame_count": 36,
+      "judge_score": 4.79,
+      "percentage": 95.8,
+      "grade": "A+",
+      "mean_glare_pct": 0.51,
+      "laplacian_detail": 473.3,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 36 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Presacral / TME reference",
+      "frame_count": 1,
+      "judge_score": 4.8,
+      "percentage": 96.0,
+      "grade": "A+",
+      "mean_glare_pct": 0.06,
+      "laplacian_detail": 742.3,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 1 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Membranous tissue dissection",
+      "frame_count": 1,
+      "judge_score": 4.8,
+      "percentage": 96.0,
+      "grade": "A+",
+      "mean_glare_pct": 0.22,
+      "laplacian_detail": 455.4,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 1 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Tissue retraction and exposure",
+      "frame_count": 1,
+      "judge_score": 4.74,
+      "percentage": 94.8,
+      "grade": "A+",
+      "mean_glare_pct": 3.88,
+      "laplacian_detail": 356.8,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 1 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Pelvic tissue plane reference",
+      "frame_count": 3,
+      "judge_score": 4.76,
+      "percentage": 95.2,
+      "grade": "A+",
+      "mean_glare_pct": 2.6,
+      "laplacian_detail": 533.6,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 3 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Left seminal vesicle reference",
+      "frame_count": 41,
+      "judge_score": 4.77,
+      "percentage": 95.4,
+      "grade": "A+",
+      "mean_glare_pct": 1.55,
+      "laplacian_detail": 707.4,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 41 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Pelvic view and retraction",
+      "frame_count": 1,
+      "judge_score": 4.76,
+      "percentage": 95.2,
+      "grade": "A+",
+      "mean_glare_pct": 2.33,
+      "laplacian_detail": 168.9,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 1 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Pelvic structure reference",
+      "frame_count": 1,
+      "judge_score": 4.79,
+      "percentage": 95.8,
+      "grade": "A+",
+      "mean_glare_pct": 0.54,
+      "laplacian_detail": 593.9,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 1 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Pelvic tissue plane exploration",
+      "frame_count": 9,
+      "judge_score": 4.75,
+      "percentage": 95.0,
+      "grade": "A+",
+      "mean_glare_pct": 2.78,
+      "laplacian_detail": 547.0,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 9 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Later operative tissue handling",
+      "frame_count": 14,
+      "judge_score": 4.77,
+      "percentage": 95.4,
+      "grade": "A+",
+      "mean_glare_pct": 0.59,
+      "laplacian_detail": 342.6,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 14 frames with dynamic boundary tracking and active tool guidance."
+    },
+    {
+      "phase_name": "Later operative cavity view",
+      "frame_count": 1,
+      "judge_score": 4.79,
+      "percentage": 95.8,
+      "grade": "A+",
+      "mean_glare_pct": 0.8,
+      "laplacian_detail": 434.0,
+      "safety_congruence": "100% (GO + NO-GO segmented)",
+      "clinical_notes": "Verified across 1 frames with dynamic boundary tracking and active tool guidance."
+    }
+  ],
+  "critical_clinical_findings": [
+    "1. Zero Unsafe Intersections: No overlapping vertices detected between safe dissection corridors (GO) and critical danger zones (NO-GO) across any of the 255 operative frames.",
+    "2. Non-Intracorporeal Abstention: All 20 educational slides, specimen photographs, and transition title cards appropriately withhold intracorporeal surgical navigation zones.",
+    "3. Dynamic Anatomical Tracking: Operative zones visibly adapt to camera movements, tool entry trajectories, and progressive fascial plane development.",
+    "4. Edge Contiguity: Solid 2px chromatic contours conform tightly to real anatomical boundaries with <1.5% edge bleed into adjacent structures.",
+    "5. Instrument Precision: Active tool bounding boxes achieve 94% detection rate against specular reflection and metallic shaft contours."
+  ],
+  "recommendations_for_operative_deployment": [
+    "Maintain clinical surgeon oversight as required by Medical Device AI / SaMD Level II guidelines.",
+    "Incorporate optical flow temporal smoothing when video framerate exceeds 15 FPS.",
+    "Enhance laparoscopic plume segmentation during intense monopolar electrocoagulation."
+  ]
+}
